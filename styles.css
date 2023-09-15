@@ -1,0 +1,108 @@
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+  }
+
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+}
+
+
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Make a background */
+  body {
+    background-color: #1F2937;
+  }
+  
+  /* Define the navbar styles */
+  .navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    
+    background-color: #1F2937;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  /* Style the logo */
+  .logo {
+    color: white;
+    font-size: 24px;
+    margin-left: 10%;
+  }
+  .logo a {
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+  }
+  /* Style the links */
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .bx {
+    width: 90%;
+    color: aliceblue;
+    text-align: center;
+  }
+  .b1 {
+    background-color: #8f9397;
+    height: 25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+    margin: 5em 5em 0em 5em;
+
+  }
+  .kitty {
+    padding: 5em;
+    height: 30em;
+    
+  }
+  .cta-1 {
+    flex-basis:350px ;
+    flex-direction: column;
+  }
+  .hero-image {
+    display: flex;
+    flex-basis: 200px;
+  }
+  .sign-up {
+    background-color: #3882F6; /* Green */
+    border-style:none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .b2 {
+    background-color: #1F2937;
+    height: 25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0em 5em 5em 5em;
+  }
